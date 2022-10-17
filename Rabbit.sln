@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendProducts", "SendProduct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageStateManagement", "MessageStateManagement\MessageStateManagement.csproj", "{F5C03D2C-F597-40FE-8C2D-92A827740D34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateInvoice.CompetingConsumerPattern", "CreateInvoice.CompetingConsumerPattern\CreateInvoice.CompetingConsumerPattern.csproj", "{3837AC09-C505-4F21-BD78-29A023205E02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{F5C03D2C-F597-40FE-8C2D-92A827740D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5C03D2C-F597-40FE-8C2D-92A827740D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5C03D2C-F597-40FE-8C2D-92A827740D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3837AC09-C505-4F21-BD78-29A023205E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3837AC09-C505-4F21-BD78-29A023205E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3837AC09-C505-4F21-BD78-29A023205E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3837AC09-C505-4F21-BD78-29A023205E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{9B2E5027-87B8-46D9-8645-FE65FD7744E7} = {88ADE8A2-646C-440D-8CEF-43C8A9A68677}
 		{0F576AAE-521A-42B9-AC69-63C5C0BDBEAF} = {ECB94FFA-2CAC-48FA-9E30-B55D674C73CF}
 		{F5C03D2C-F597-40FE-8C2D-92A827740D34} = {A263336B-0636-4C1A-A5BE-F1ACAEE8F1EB}
+		{3837AC09-C505-4F21-BD78-29A023205E02} = {88ADE8A2-646C-440D-8CEF-43C8A9A68677}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68315279-642D-4A64-858B-A44D1276E7D7}

@@ -14,7 +14,7 @@ namespace SendProducts
         }
 
         /// <summary>
-        /// Consume message powtózyć dla wszsystkich typów 
+        /// Consume message powtórzyć dla wszystkich typów 
         /// </summary>
         private static void Consume()
         {
